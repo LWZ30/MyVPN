@@ -41,17 +41,15 @@
             this.lServerIP = new System.Windows.Forms.Label();
             this.bConnect = new System.Windows.Forms.Button();
             this.bDisconnect = new System.Windows.Forms.Button();
-            this.bRenew = new System.Windows.Forms.Button();
             this.tMessage = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SettingBox.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // Dialer
             // 
-// TODO: “”的代码生成失败，原因是出现异常“无效的基元类型: System.IntPtr。请考虑使用 CodeObjectCreateExpression。”。
-// TODO: “”的代码生成失败，原因是出现异常“无效的基元类型: System.IntPtr。请考虑使用 CodeObjectCreateExpression。”。
+            // TODO: “”的代码生成失败，原因是出现异常“无效的基元类型: System.IntPtr。请考虑使用 CodeObjectCreateExpression。”。
+            // TODO: “”的代码生成失败，原因是出现异常“无效的基元类型: System.IntPtr。请考虑使用 CodeObjectCreateExpression。”。
             this.Dialer.Credentials = null;
             this.Dialer.EapOptions = new DotRas.RasEapOptions(false, false, false);
             this.Dialer.Options = new DotRas.RasDialOptions(false, false, false, false, false, false, false, false, false, false, false);
@@ -67,7 +65,7 @@
             this.SettingBox.Controls.Add(this.lUsername);
             this.SettingBox.Controls.Add(this.tServerIP);
             this.SettingBox.Controls.Add(this.lServerIP);
-            this.SettingBox.Location = new System.Drawing.Point(12, 100);
+            this.SettingBox.Location = new System.Drawing.Point(12, 62);
             this.SettingBox.Name = "SettingBox";
             this.SettingBox.Size = new System.Drawing.Size(268, 121);
             this.SettingBox.TabIndex = 2;
@@ -127,7 +125,7 @@
             // 
             // bConnect
             // 
-            this.bConnect.Location = new System.Drawing.Point(12, 234);
+            this.bConnect.Location = new System.Drawing.Point(58, 189);
             this.bConnect.Name = "bConnect";
             this.bConnect.Size = new System.Drawing.Size(75, 23);
             this.bConnect.TabIndex = 3;
@@ -137,7 +135,7 @@
             // 
             // bDisconnect
             // 
-            this.bDisconnect.Location = new System.Drawing.Point(103, 233);
+            this.bDisconnect.Location = new System.Drawing.Point(139, 189);
             this.bDisconnect.Name = "bDisconnect";
             this.bDisconnect.Size = new System.Drawing.Size(75, 23);
             this.bDisconnect.TabIndex = 4;
@@ -145,50 +143,40 @@
             this.bDisconnect.UseVisualStyleBackColor = true;
             this.bDisconnect.Click += new System.EventHandler(this.bDisconnect_Click);
             // 
-            // bRenew
-            // 
-            this.bRenew.Location = new System.Drawing.Point(196, 234);
-            this.bRenew.Name = "bRenew";
-            this.bRenew.Size = new System.Drawing.Size(75, 23);
-            this.bRenew.TabIndex = 5;
-            this.bRenew.Text = "续费";
-            this.bRenew.UseVisualStyleBackColor = true;
-            this.bRenew.Click += new System.EventHandler(this.bRenew_Click);
-            // 
             // tMessage
             // 
-            this.tMessage.Location = new System.Drawing.Point(12, 274);
+            this.tMessage.Location = new System.Drawing.Point(11, 218);
             this.tMessage.Multiline = true;
             this.tMessage.Name = "tMessage";
             this.tMessage.ReadOnly = true;
             this.tMessage.Size = new System.Drawing.Size(268, 87);
             this.tMessage.TabIndex = 6;
             // 
-            // pictureBox1
+            // label1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(13, 13);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(266, 81);
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("微软雅黑", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Location = new System.Drawing.Point(17, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(103, 50);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "VPN";
             // 
             // VPNClient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(291, 380);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(292, 319);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.tMessage);
-            this.Controls.Add(this.bRenew);
             this.Controls.Add(this.bDisconnect);
             this.Controls.Add(this.bConnect);
             this.Controls.Add(this.SettingBox);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "VPNClient";
             this.Text = "VPN";
             this.SettingBox.ResumeLayout(false);
             this.SettingBox.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -199,7 +187,6 @@
         private System.Windows.Forms.GroupBox SettingBox;
         private System.Windows.Forms.Button bConnect;
         private System.Windows.Forms.Button bDisconnect;
-        private System.Windows.Forms.Button bRenew;
         private System.Windows.Forms.TextBox tMessage;
         private System.Windows.Forms.TextBox tUserkey;
         private System.Windows.Forms.Label lUserKey;
@@ -210,7 +197,7 @@
 
         private DotRas.RasPhoneBook AllUsersPhoneBook;
         private DotRas.RasDialer Dialer;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
 

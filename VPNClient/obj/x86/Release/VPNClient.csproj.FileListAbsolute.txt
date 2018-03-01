@@ -1,0 +1,11 @@
+C:\Users\lw\source\repos\MyVPN\VPNClient\Release\VPNClient.exe.config
+C:\Users\lw\source\repos\MyVPN\VPNClient\Release\VPNClient.exe
+C:\Users\lw\source\repos\MyVPN\VPNClient\Release\VPNClient.pdb
+C:\Users\lw\source\repos\MyVPN\VPNClient\Release\DotRas.dll
+C:\Users\lw\source\repos\MyVPN\VPNClient\Release\DotRas.xml
+C:\Users\lw\source\repos\MyVPN\VPNClient\obj\x86\Release\VPNClient.VPNClient.resources
+C:\Users\lw\source\repos\MyVPN\VPNClient\obj\x86\Release\VPNClient.Properties.Resources.resources
+C:\Users\lw\source\repos\MyVPN\VPNClient\obj\x86\Release\VPNClient.csproj.GenerateResource.Cache
+C:\Users\lw\source\repos\MyVPN\VPNClient\obj\x86\Release\VPNClient.csproj.CoreCompileInputs.cache
+C:\Users\lw\source\repos\MyVPN\VPNClient\obj\x86\Release\VPNClient.exe
+C:\Users\lw\source\repos\MyVPN\VPNClient\obj\x86\Release\VPNClient.pdb

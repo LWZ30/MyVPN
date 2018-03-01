@@ -22,3 +22,13 @@ C:\Users\lw\source\repos\VPNClient\VPNClient\obj\x64\Debug\VPNClient.csproj.Gene
 C:\Users\lw\source\repos\VPNClient\VPNClient\obj\x64\Debug\VPNClient.csproj.CoreCompileInputs.cache
 C:\Users\lw\source\repos\VPNClient\VPNClient\obj\x64\Debug\VPNClient.exe
 C:\Users\lw\source\repos\VPNClient\VPNClient\obj\x64\Debug\VPNClient.pdb
+C:\Users\lw\source\repos\MyVPN\VPNClient\bin\x64\Debug\VPNClient.exe.config
+C:\Users\lw\source\repos\MyVPN\VPNClient\bin\x64\Debug\VPNClient.exe
+C:\Users\lw\source\repos\MyVPN\VPNClient\bin\x64\Debug\VPNClient.pdb
+C:\Users\lw\source\repos\MyVPN\VPNClient\obj\x64\Debug\VPNClient.csprojResolveAssemblyReference.cache
+C:\Users\lw\source\repos\MyVPN\VPNClient\obj\x64\Debug\VPNClient.VPNClient.resources
+C:\Users\lw\source\repos\MyVPN\VPNClient\obj\x64\Debug\VPNClient.Properties.Resources.resources
+C:\Users\lw\source\repos\MyVPN\VPNClient\obj\x64\Debug\VPNClient.csproj.GenerateResource.Cache
+C:\Users\lw\source\repos\MyVPN\VPNClient\obj\x64\Debug\VPNClient.csproj.CoreCompileInputs.cache
+C:\Users\lw\source\repos\MyVPN\VPNClient\obj\x64\Debug\VPNClient.exe
+C:\Users\lw\source\repos\MyVPN\VPNClient\obj\x64\Debug\VPNClient.pdb

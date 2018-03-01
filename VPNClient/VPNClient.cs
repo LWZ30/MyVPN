@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using DotRas;
+using System;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
+using System.Configuration;
+using System.Net;
 using System.Text;
 using System.Windows.Forms;
-using DotRas;
-using System.Net;
-using System.Configuration;
-using System.Security.Cryptography;
 
 namespace VPNClient
 {
@@ -18,7 +13,7 @@ namespace VPNClient
 
         public const string sEntryName = "VPN Connection";
         private RasHandle handle = null;
-        
+
 
         public VPNClient()
         {
@@ -76,7 +71,9 @@ namespace VPNClient
                 try
                 {
                     RasEntry entry = RasEntry.CreateVpnEntry(sEntryName, sVpnIp, RasVpnStrategy.L2tpOnly,
-                        RasDevice.GetDeviceByName("(L2TP)", RasDeviceType.Vpn));
+#pragma warning disable CS0618 // 类型或成员已过时
+                        device: RasDevice.GetDeviceByName("(L2TP)", RasDeviceType.Vpn));
+#pragma warning restore CS0618 // 类型或成员已过时
                     entry.EncryptionType = RasEncryptionType.Optional;
 
                     this.AllUsersPhoneBook.Entries.Add(entry);
@@ -124,7 +121,7 @@ namespace VPNClient
                 bDisconnect.Enabled = true;
 
                 //Account state changed.
-                
+
             }
 
             if (!e.Connected)
@@ -143,7 +140,9 @@ namespace VPNClient
             }
             else
             {
+#pragma warning disable CS0618 // 类型或成员已过时
                 RasConnection connection = RasConnection.GetActiveConnectionByHandle(this.handle);
+#pragma warning restore CS0618 // 类型或成员已过时
                 if (connection != null)
                 {
                     connection.HangUp();
@@ -163,7 +162,7 @@ namespace VPNClient
 
             Encoding encode = new UTF8Encoding();
             SetConfigValue("password", Convert.ToBase64String(encode.GetBytes(tUserkey.Text)));
-            
+
         }
 
         private static void SetConfigValue(string key, string value)
@@ -196,10 +195,6 @@ namespace VPNClient
             this.tMessage.AppendText("连接失败，请检查网络异常！\r\n");
         }
 
-        private void bRenew_Click(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start("http://www.taobao.com");
-        }
 
     }
 }
