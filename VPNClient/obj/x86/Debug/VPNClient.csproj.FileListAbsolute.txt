@@ -1,0 +1,15 @@
+C:\Users\slobber\Projects\dotnet\VPNClient\VPNClient\obj\x86\Debug\VPNClient.VPNClient.resources
+C:\Users\slobber\Projects\dotnet\VPNClient\VPNClient\obj\x86\Debug\VPNClient.Properties.Resources.resources
+C:\Users\slobber\Projects\dotnet\VPNClient\VPNClient\obj\x86\Debug\VPNClient.csproj.GenerateResource.Cache
+C:\Users\slobber\Projects\dotnet\VPNClient\VPNClient\obj\x86\Debug\VPNClient.csproj.CoreCompileInputs.cache
+C:\Users\slobber\Projects\dotnet\VPNClient\VPNClient\obj\x86\Debug\VPNClient.exe
+C:\Users\slobber\Projects\dotnet\VPNClient\VPNClient\obj\x86\Debug\VPNClient.pdb
+C:\Users\slobber\Projects\dotnet\VPNClient\VPNClient\bin\Debug\VPNClient.exe.manifest
+C:\Users\slobber\Projects\dotnet\VPNClient\VPNClient\bin\Debug\VPNClient.application
+C:\Users\slobber\Projects\dotnet\VPNClient\VPNClient\bin\Debug\VPNClient.exe
+C:\Users\slobber\Projects\dotnet\VPNClient\VPNClient\bin\Debug\VPNClient.pdb
+C:\Users\slobber\Projects\dotnet\VPNClient\VPNClient\bin\Debug\DotRas.dll
+C:\Users\slobber\Projects\dotnet\VPNClient\VPNClient\bin\Debug\DotRas.xml
+C:\Users\slobber\Projects\dotnet\VPNClient\VPNClient\obj\x86\Debug\VPNClient.exe.manifest
+C:\Users\slobber\Projects\dotnet\VPNClient\VPNClient\obj\x86\Debug\VPNClient.application
+C:\Users\slobber\Projects\dotnet\VPNClient\VPNClient\obj\x86\Debug\VPNClient.csprojResolveAssemblyReference.cache
