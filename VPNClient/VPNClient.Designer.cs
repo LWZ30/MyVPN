@@ -48,8 +48,8 @@
             // 
             // Dialer
             // 
-            // TODO: “”的代码生成失败，原因是出现异常“无效的基元类型: System.IntPtr。请考虑使用 CodeObjectCreateExpression。”。
-            // TODO: “”的代码生成失败，原因是出现异常“无效的基元类型: System.IntPtr。请考虑使用 CodeObjectCreateExpression。”。
+// TODO: “”的代码生成失败，原因是出现异常“无效的基元类型: System.IntPtr。请考虑使用 CodeObjectCreateExpression。”。
+// TODO: “”的代码生成失败，原因是出现异常“无效的基元类型: System.IntPtr。请考虑使用 CodeObjectCreateExpression。”。
             this.Dialer.Credentials = null;
             this.Dialer.EapOptions = new DotRas.RasEapOptions(false, false, false);
             this.Dialer.Options = new DotRas.RasDialOptions(false, false, false, false, false, false, false, false, false, false, false);
@@ -63,116 +63,138 @@
             this.SettingBox.Controls.Add(this.lUserKey);
             this.SettingBox.Controls.Add(this.tUsername);
             this.SettingBox.Controls.Add(this.lUsername);
-            this.SettingBox.Controls.Add(this.tServerIP);
-            this.SettingBox.Controls.Add(this.lServerIP);
-            this.SettingBox.Location = new System.Drawing.Point(12, 62);
+            this.SettingBox.Location = new System.Drawing.Point(24, 124);
+            this.SettingBox.Margin = new System.Windows.Forms.Padding(6);
             this.SettingBox.Name = "SettingBox";
-            this.SettingBox.Size = new System.Drawing.Size(268, 121);
+            this.SettingBox.Padding = new System.Windows.Forms.Padding(6);
+            this.SettingBox.Size = new System.Drawing.Size(532, 187);
             this.SettingBox.TabIndex = 2;
             this.SettingBox.TabStop = false;
             // 
             // tUserkey
             // 
-            this.tUserkey.Location = new System.Drawing.Point(83, 75);
+            this.tUserkey.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.tUserkey.Location = new System.Drawing.Point(166, 115);
+            this.tUserkey.Margin = new System.Windows.Forms.Padding(6);
             this.tUserkey.Name = "tUserkey";
             this.tUserkey.PasswordChar = '*';
-            this.tUserkey.Size = new System.Drawing.Size(166, 21);
+            this.tUserkey.Size = new System.Drawing.Size(328, 44);
             this.tUserkey.TabIndex = 5;
-            this.tUserkey.Text = "hxedu";
             // 
             // lUserKey
             // 
             this.lUserKey.AutoSize = true;
-            this.lUserKey.Location = new System.Drawing.Point(12, 79);
+            this.lUserKey.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lUserKey.Location = new System.Drawing.Point(24, 119);
+            this.lUserKey.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lUserKey.Name = "lUserKey";
-            this.lUserKey.Size = new System.Drawing.Size(65, 12);
+            this.lUserKey.Size = new System.Drawing.Size(99, 36);
             this.lUserKey.TabIndex = 4;
-            this.lUserKey.Text = "用户密码：";
+            this.lUserKey.Text = "密码：";
             // 
             // tUsername
             // 
-            this.tUsername.Location = new System.Drawing.Point(83, 48);
+            this.tUsername.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.tUsername.Location = new System.Drawing.Point(166, 39);
+            this.tUsername.Margin = new System.Windows.Forms.Padding(6);
             this.tUsername.Name = "tUsername";
-            this.tUsername.Size = new System.Drawing.Size(166, 21);
+            this.tUsername.Size = new System.Drawing.Size(328, 44);
             this.tUsername.TabIndex = 3;
-            this.tUsername.Text = "hxedu";
             // 
             // lUsername
             // 
             this.lUsername.AutoSize = true;
-            this.lUsername.Location = new System.Drawing.Point(12, 52);
+            this.lUsername.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lUsername.Location = new System.Drawing.Point(24, 43);
+            this.lUsername.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lUsername.Name = "lUsername";
-            this.lUsername.Size = new System.Drawing.Size(65, 12);
+            this.lUsername.Size = new System.Drawing.Size(99, 36);
             this.lUsername.TabIndex = 2;
-            this.lUsername.Text = "用户账号：";
+            this.lUsername.Text = "账号：";
             // 
             // tServerIP
             // 
-            this.tServerIP.Location = new System.Drawing.Point(83, 21);
+            this.tServerIP.Location = new System.Drawing.Point(241, 77);
+            this.tServerIP.Margin = new System.Windows.Forms.Padding(6);
             this.tServerIP.Name = "tServerIP";
-            this.tServerIP.Size = new System.Drawing.Size(166, 21);
+            this.tServerIP.Size = new System.Drawing.Size(313, 35);
             this.tServerIP.TabIndex = 1;
             this.tServerIP.Text = "60.30.156.187";
+            this.tServerIP.Visible = false;
             // 
             // lServerIP
             // 
             this.lServerIP.AutoSize = true;
-            this.lServerIP.Location = new System.Drawing.Point(12, 25);
+            this.lServerIP.Location = new System.Drawing.Point(237, 33);
+            this.lServerIP.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lServerIP.Name = "lServerIP";
-            this.lServerIP.Size = new System.Drawing.Size(65, 12);
+            this.lServerIP.Size = new System.Drawing.Size(130, 24);
             this.lServerIP.TabIndex = 0;
             this.lServerIP.Text = "服务地址：";
+            this.lServerIP.Visible = false;
             // 
             // bConnect
             // 
-            this.bConnect.Location = new System.Drawing.Point(58, 189);
+            this.bConnect.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.bConnect.Location = new System.Drawing.Point(49, 323);
+            this.bConnect.Margin = new System.Windows.Forms.Padding(6);
             this.bConnect.Name = "bConnect";
-            this.bConnect.Size = new System.Drawing.Size(75, 23);
+            this.bConnect.Size = new System.Drawing.Size(192, 83);
             this.bConnect.TabIndex = 3;
-            this.bConnect.Text = "连接";
+            this.bConnect.Text = "连 接";
             this.bConnect.UseVisualStyleBackColor = true;
             this.bConnect.Click += new System.EventHandler(this.bConnect_Click);
             // 
             // bDisconnect
             // 
-            this.bDisconnect.Location = new System.Drawing.Point(139, 189);
+            this.bDisconnect.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.bDisconnect.Location = new System.Drawing.Point(335, 323);
+            this.bDisconnect.Margin = new System.Windows.Forms.Padding(6);
             this.bDisconnect.Name = "bDisconnect";
-            this.bDisconnect.Size = new System.Drawing.Size(75, 23);
+            this.bDisconnect.Size = new System.Drawing.Size(192, 83);
             this.bDisconnect.TabIndex = 4;
-            this.bDisconnect.Text = "断开";
+            this.bDisconnect.Text = "断 开";
             this.bDisconnect.UseVisualStyleBackColor = true;
             this.bDisconnect.Click += new System.EventHandler(this.bDisconnect_Click);
             // 
             // tMessage
             // 
-            this.tMessage.Location = new System.Drawing.Point(11, 218);
+            this.tMessage.Location = new System.Drawing.Point(24, 436);
+            this.tMessage.Margin = new System.Windows.Forms.Padding(6);
             this.tMessage.Multiline = true;
             this.tMessage.Name = "tMessage";
             this.tMessage.ReadOnly = true;
-            this.tMessage.Size = new System.Drawing.Size(268, 87);
+            this.tMessage.Size = new System.Drawing.Size(532, 128);
             this.tMessage.TabIndex = 6;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("微软雅黑", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(17, 9);
+            this.label1.Location = new System.Drawing.Point(22, 20);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 50);
+            this.label1.Size = new System.Drawing.Size(207, 98);
             this.label1.TabIndex = 7;
             this.label1.Text = "VPN";
             // 
             // VPNClient
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(292, 319);
+            this.ClientSize = new System.Drawing.Size(584, 596);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tMessage);
             this.Controls.Add(this.bDisconnect);
             this.Controls.Add(this.bConnect);
+            this.Controls.Add(this.tServerIP);
             this.Controls.Add(this.SettingBox);
+            this.Controls.Add(this.lServerIP);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(6);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "VPNClient";
             this.Text = "VPN";
             this.SettingBox.ResumeLayout(false);
