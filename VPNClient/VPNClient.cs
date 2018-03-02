@@ -20,11 +20,11 @@ namespace VPNClient
             InitializeComponent();
 
             //load config setting
-            tServerIP.Text = GetConfigValue("serverip");
-            tUsername.Text = GetConfigValue("username");
+            //tServerIP.Text = GetConfigValue("serverip");
+            //tUsername.Text = GetConfigValue("username");
 
-            Encoding encode = new UTF8Encoding();
-            tUserkey.Text = encode.GetString(Convert.FromBase64String(GetConfigValue("password")));
+            //Encoding encode = new UTF8Encoding();
+            //tUserkey.Text = encode.GetString(Convert.FromBase64String(GetConfigValue("password")));
 
             //setting UI
             bDisconnect.Enabled = false;
@@ -157,11 +157,11 @@ namespace VPNClient
         {
             base.OnClosing(e);
             //save config data
-            SetConfigValue("serverip", tServerIP.Text);
-            SetConfigValue("username", tUsername.Text);
+            //SetConfigValue("serverip", tServerIP.Text);
+            //SetConfigValue("username", tUsername.Text);
 
-            Encoding encode = new UTF8Encoding();
-            SetConfigValue("password", Convert.ToBase64String(encode.GetBytes(tUserkey.Text)));
+            //Encoding encode = new UTF8Encoding();
+            //SetConfigValue("password", Convert.ToBase64String(encode.GetBytes(tUserkey.Text)));
 
         }
 
